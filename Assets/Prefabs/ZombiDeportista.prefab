@@ -134,7 +134,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2409104873375695184}
         m_TargetAssemblyTypeName: Card, Assembly-CSharp
         m_MethodName: UseCard
         m_Mode: 1
@@ -161,4 +161,3 @@ MonoBehaviour:
   Ataque: 7
   Defensa: 7
   card: {fileID: 2410218372351620048}
-  tipo: Oro

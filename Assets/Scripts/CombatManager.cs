@@ -33,7 +33,7 @@ public class CombatManager : MonoBehaviour
         public GameObject Ganador;
 
         public int PuntosRonda = 0;
-        public int PuntosRonda2 =0;
+        public int PuntosRonda2 = 0;
 
         public TextMeshProUGUI PuntosRondaT;
         public TextMeshProUGUI PuntosRonda2T;
@@ -197,5 +197,14 @@ public class CombatManager : MonoBehaviour
     {
         PuntosRondaT.text = "" + PuntosRonda;
         PuntosRonda2T.text = "" + PuntosRonda2;
+    }
+
+    public void RecContador()
+    {
+        PuntosPlayer = 20;
+        PuntosPlayer2 = 20;
+
+        PuntosPlayerT.text = "" + PuntosPlayer;
+        PuntosPlayer2T.text = "" + PuntosPlayer2;
     }
 }

@@ -19,5 +19,6 @@ public class SiguienteRonda : MonoBehaviour
 
         CambioTurno.SetActive(true);
 
+        CombatManager.Instance.RecContador();
     }
 }
