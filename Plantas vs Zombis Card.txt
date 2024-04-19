@@ -1,0 +1,34 @@
+Plantas vs. Zombis Card Game en un videojuego cartas para dos jugadores  inspirado en el famoso título de PopCap en el que controlas un número de personajes generados aleatoriamente a través de una lista de 25 prefabs (deck). Uno de los principales componentes de la mecánica del juego constituye el sistema de turnos y la diferencia entre pasar y ceder un turno, donde los jugadores tienen cierta libertad en cuanto a la cantidad de acciones que pueden realizar por turnos. Cada jugador no escoge una facción específica sino que juega con la variedad en la mano que se le ha otorgado. A lo largo del juego, los jugadores deben adaptarse a las cartas que van siendo añadidas a su mano.
+
+La interfaz de usuario se basa en que todos los componentes no estarán siempre disponibles para su uso en la escena (fundamentalmente los que pertenecen a uno u otro jugador). Es bastante rígido en cuanto a los efectos e interacción propia de la batalla, también carece de personalización o alguna otra característica definible por el jugador a no ser sus propias decisiones durante la partida. 
+
+El tablero está compuesto por casillas o slots cada una de las cuales solo puede contener una carta. Además de los espacios para el líder y deck. Los jugadores pueden interactuar con el juego arrastrando y soltando cartas entre su mano y el tablero. Las dos cartas que se tiene permitido devolver al mazo deben arrastrarse desde la mano al espacio del mazo justo antes de presionar el botón que da inicio al primer turno de cada jugador.
+
+La mayoria de las cartas del mazo son propiamente de ataque:
+
+## Líder: Crazy Dave
+Habilidad: - Poder: 5. Te permite escoger 1 carta adicional, pero solo una vez durante el juego.
+
+### Cartas de Unidad:
+
+#### Plantas:
+- **Girasol [M]** - Poder: 3. Efecto: Ninguno. [3] 
+- **Lanzaguisantes [R]** - Poder: 5. Efecto: Ninguno. [1]
+- **Nuez [M, S]** - Poder: 6. Efecto: Ninguno. [3] 
+- **Guisantralladora [M, R]** - Poder: 7. Efecto: Ninguno. [1]
+
+#### Zombis:
+- **Zombie Básico [M]** - Poder: 4. Efecto: Ninguno. [3] 
+- **Conos de Tráfico [M, S]** - Poder: 6. Efecto: Ninguno. [1] 
+- **Zombot [M, R, S]** - Poder: 9. Efecto: Ninguno. [1]
+- **Zombi Bailarín [M]** - Poder: 3. Efecto: Ninguno. [1]
+
+### Cartas Especiales:
+- **Soleado [Clima]** - Efecto: Aumenta el poder de todas las cartas de Planta en 1. [3]  
+- **Lluvia Ácida [Clima]** - Efecto: Disminuye el poder de todas las cartas de Zombi en 1. [1] 
+- **Revitalizar [Aumento]** - Efecto: Aumenta el poder de todas las cartas de Planta en la fila de asedio en 2. [1] 
+- **Barrera [Aumento]** - Efecto: Aumenta el poder de todas las cartas de Zombi en la fila de cuerpo a cuerpo en 2. [3]
+- **Señuelo [Señuelo]** - Efecto: Coloca una carta con poder 0 en el lugar de una carta del campo para regresarla a la mano. [1]
+- **Despejar [Despejar]** - Efecto: Elimina todas las cartas de clima del campo. [1]
+
+                                Lionis A. Sardiñas Hernández C122

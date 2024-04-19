@@ -1,0 +1,4 @@
+repository "ProgramPvsZ@LIonis12@cloud"
+  path "/"
+    br "/main"
+    co "/main"
